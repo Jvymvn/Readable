@@ -1,0 +1,22 @@
+.c-post-view {
+  background: #fbfbfb;
+  border: 1px solid #e1e1e1;
+  color: #262626;
+  margin: 2.5em;
+  padding: 2.5em;
+}
+
+.c-post-view div {
+  position: relative;
+}
+
+.c-post-category__tag {
+  display: inline-block;
+  position: absolute;
+  top: -3.8em;
+  left: -2.5em;
+  padding: 0.5em;
+  background: #262626;
+  color: #fff;
+  text-transform: uppercase;
+}

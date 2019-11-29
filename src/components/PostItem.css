@@ -1,0 +1,35 @@
+.c-post-item {
+  border: 0;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.c-post-item div {
+  position: relative;
+}
+
+.c-post-item > div:after,
+.c-posts-list-item:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.c-post-item-title {
+  text-decoration: underline;
+}
+
+.c-post__comments {
+  float: left;
+  width: 100%;
+}
+
+.c-comment-actions {
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
+
+.c-post-section-comment__title {
+  margin-bottom: -1rem;
+  color: #7f8c8d;
+}

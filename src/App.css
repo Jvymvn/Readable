@@ -1,0 +1,92 @@
+body,
+html,
+body > div {
+  height: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.c-app {
+  height: auto;
+  min-height: 100vh;
+}
+
+.c-app-container {
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.c-app-container > * {
+  flex: 1 100%;
+}
+
+.c-app-main {
+  background: #ecf0f1;
+}
+
+.c-app-main {
+  flex: 3 100%;
+  order: 1;
+}
+
+@media all and (min-width: 550px) {
+  .c-app-header {
+    flex: 1 auto;
+  }
+  .c-app-main {
+    flex: 5 0px;
+    order: 2;
+  }
+}
+
+.c-add-post--internal {
+  color: #27ae60;
+  margin: 1rem 0 0 -0.4rem;
+  display: inline-block;
+}
+
+.c-tag--react {
+  background: #0d4bbd !important;
+}
+
+.c-tag--redux {
+  background: #9b59b6 !important;
+}
+
+.c-tag--udacity {
+  background: rgb(38, 177, 56) !important;
+}
+
+.c-sort-by_box {
+  position: absolute;
+  right: 3em;
+  top: 2em;
+}
+
+.c-sort-by_box span {
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: right;
+}
+
+.c-page-not-found {
+  color: #2c3e50;
+  margin: 3.5em 2.5em 10em 2.5em;
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .c-page-not-found {
+    margin: 3.5em 2.5em;
+  }
+}
+.c-page-not-found h2 {
+  margin-bottom: 6rem;
+}
+
+.c-page-not-found a {
+  color: #2980b9;
+  text-decoration: none;
+}
